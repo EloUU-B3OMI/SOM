@@ -1,6 +1,6 @@
 <h1>Statistics</h1>
 
-We made use of the standard error instead of the standard deviation. The standard deviation is a measure of the dispersion of the data from the mean. But we would like to measure how precise our estimate is of the mean. The main use of the standard error of the mean (SE) is to give confidence intervals around the estimated means for the mean and not for the data itself [L.15]. We want an confidence interval of 95\%, this means we can say there is only a 5\% chance that the range mean &plusmn; 1.96*SE excludes the mean of the population [AB05].
+We made use of the standard error instead of the standard deviation. The standard deviation is a measure of the dispersion of the data from the mean. But we would like to measure how precise our estimate is of the mean. The main use of the standard error of the mean (SE) is to give confidence intervals around the estimated means for the mean and not for the data itself \[L.15\]. We want an confidence interval of 95\%, this means we can say there is only a 5\% chance that the range mean &plusmn; 1.96*SE excludes the mean of the population \[[AB05](#references)\].
 
 If we want to use the standard errors for confidence intervals, we have to make sure that the data is normally distributed. To make sure that we are dealing with a normal distribution. We can simulate a game e.g. 10,000 times and keep track of the expected scores. 
 
@@ -10,7 +10,7 @@ We also would like to use standard error for confidence intervals for the Elo ra
 
 ![Alt text](https://github.com/EloHackersz/SOM/blob/master/Statistics/histo_elo_rating.png?raw=true "Elo rating")
 
-Both figures approximates a Bell curve  for these players. According to the Central Limit Theorem, the arithmetic mean of a sufficiently large number of iterates of independent random variables will be approximately normally distributed [ZR95]. Hence, we can say that the distribution of expected score of player 1 with skill 0.1 with player 2 with skill of 0.2 are normal. Therefore we may use the standard errors for confidence intervals and standard deviations. 
+Both figures approximates a Bell curve  for these players. According to the Central Limit Theorem, the arithmetic mean of a sufficiently large number of iterates of independent random variables will be approximately normally distributed \[[ZR95](#references)\]. Hence, we can say that the distribution of expected score of player 1 with skill 0.1 with player 2 with skill of 0.2 are normal. Therefore we may use the standard errors for confidence intervals and standard deviations. 
 
 The confidence interval of 95\% can be calculated as:
 
