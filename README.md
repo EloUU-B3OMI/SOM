@@ -26,21 +26,21 @@ The standard deviation can be calculated as:
 
 <h1>Calculation of E<sub>A</sub></h1>
 
-To gather the correct Elo ratings for all contestants, we are going to measure how precise our mean of Elo rating is. We will calculate the mean of the Elo rating over 10,000 matches. Because the Elo rating is normal distributed, see section 7 for more information, we will calculate a confidence interval of 95\% with the standard error of the mean.
+To gather the correct Elo ratings for all contestants, we are going to measure how precise our mean of Elo rating is. We will calculate the mean of the Elo rating over 10,000 matches. Because the Elo rating is normal distributed, we will calculate a confidence interval of 95\% with the standard error of the mean.
 
 The Elo rating is updated during each iteration of the simulation. First, the expected score per player is calculated using the already available Elo ratings. To keep the errors in the expected score, use Formula (1). To calculate the delta, we can calculate E<sub>A</sub> without the delta's of R<sub>A</sub> and R<sub>B</sub> Use the sum of the delta's &Delta;R of R<sub>A</sub> and R<sub>B</sub> to calculate the lower- or upper bound of the expected score, respectively Formula (2) and (3). To calculate the mean of the expected score use Formula (4). The error of the mean can be calculated with Formula (5). As the result of R<sub>A</sub>, see Formula (6).
 
-(1) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_normal.png?raw=true "Upper- and lowerbound")
+1 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_normal.png?raw=true "Upper- and lowerbound")
 
-(2) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_lower.png?raw=true "Upper- and lowerbound")
+2 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_lower.png?raw=true "Upper- and lowerbound")
 
-(3) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_upper.png?raw=true "Upper- and lowerbound")
+3 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_upper.png?raw=true "Upper- and lowerbound")
 
-(4) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_mean.png?raw=true "Upper- and lowerbound")
+4 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_mean.png?raw=true "Upper- and lowerbound")
 
-(5) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_error.png?raw=true "Upper- and lowerbound")
+5 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA_error.png?raw=true "Upper- and lowerbound")
 
-(6) ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA.png?raw=true "Upper- and lowerbound")
+6 - ![Alt text](https://github.com/EloHackersz/SOM/blob/master/EA/EA.png?raw=true "Upper- and lowerbound")
 
 <h1>References</h1>
 
