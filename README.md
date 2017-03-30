@@ -1,4 +1,6 @@
-# Statistics
+# Supplementary Online Material
+
+## Statistics
 
 We made use of the standard error instead of the standard deviation. The standard deviation is a measure of the dispersion of the data from the mean. But we would like to measure how precise our estimate is of the mean. The main use of the standard error of the mean (SE) is to give confidence intervals around the estimated means for the mean and not for the data itself \[[L.15](#references)\]. We want an confidence interval of 95\%, this means we can say there is only a 5\% chance that the range mean &plusmn; 1.96*SE excludes the mean of the population \[[AB05](#references)\].
 
@@ -24,7 +26,7 @@ The standard deviation can be calculated as:
 
 ![Standard Deviation](https://github.com/EloHackersz/SOM/blob/master/Statistics/STD.png?raw=true "Standard Deviation")
 
-# Calculation of E<sub>A</sub>
+## Calculation of E<sub>A</sub>
 
 To gather the correct Elo ratings for all contestants, we are going to measure how precise our mean of Elo rating is. We will calculate the mean of the Elo rating over 10,000 matches. Because the Elo rating is normal distributed, we will calculate a confidence interval of 95\% with the standard error of the mean.
 
